@@ -1,0 +1,13 @@
+tags:
+  - "property"
+summary:
+  - "Delete a specific property"
+description:
+  - "Delete a specific property from database"
+produces:
+  - "application/json"
+responses:
+  204:
+    description: "No content - This code indicates that the deletion worked"
+  404:
+    description: "Not Found - If the especified id does not exist in the database"

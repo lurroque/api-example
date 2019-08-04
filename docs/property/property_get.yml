@@ -1,0 +1,11 @@
+tags:
+  - "property"
+summary:
+  - "Bring all properties"
+description:
+  - "Bring all properties from database"
+produces:
+  - "application/json"
+responses:
+  200:
+    description: "Ok - Returns all properties registered in the database"

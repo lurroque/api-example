@@ -1,0 +1,13 @@
+tags:
+  - "real-estate"
+summary:
+  - "Delete a specific real estate"
+description:
+  - "Delete a specific real estate from database"
+produces:
+  - "application/json"
+responses:
+  204:
+    description: "No content - This code indicates that the deletion worked"
+  404:
+    description: "Not Found - If the especified id does not exist in the database"

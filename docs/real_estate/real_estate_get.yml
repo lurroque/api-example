@@ -1,0 +1,11 @@
+tags:
+  - "real-estate"
+summary:
+  - "Bring all real estates"
+description:
+  - "Bring all real estates from database"
+produces:
+  - "application/json"
+responses:
+  200:
+    description: "Ok - Returns all real estates registered in the database"

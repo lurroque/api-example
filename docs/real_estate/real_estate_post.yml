@@ -1,0 +1,14 @@
+tags:
+  - "real-estate"
+summary:
+  - "Create a real estate"
+description:
+  - "Create a real estate, with the following fields:"
+  - "name and address"
+produces:
+  - "application/json"
+responses:
+  201:
+    description: "Created - Real estate successfully registered"
+  400:
+    description: "Bad request - If there area validation errors coming in json file"

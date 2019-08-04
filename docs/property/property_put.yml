@@ -1,0 +1,13 @@
+tags:
+  - "property"
+summary:
+  - "Update a specific property"
+description:
+  - "Update a specific property from database"
+produces:
+  - "application/json"
+responses:
+  400:
+    description: "Bad Request - If json data is not validated"
+  404:
+    description: "Not found - If id does not exist in database"

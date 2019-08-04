@@ -1,0 +1,13 @@
+tags:
+  - "property"
+summary:
+  - "Create a property"
+description:
+  - "Create a property, with the following fields:"
+produces:
+  - "application/json"
+responses:
+  201:
+    description: "Created - Property successfully registered"
+  400:
+    description: "Bad request - If there area validation errors coming in json file"

@@ -1,0 +1,13 @@
+tags:
+  - "real-estate"
+summary:
+  - "Update a specific real estate"
+description:
+  - "Update a specific real estate from database"
+produces:
+  - "application/json"
+responses:
+  400:
+    description: "Bad Request - If json data is not validated"
+  404:
+    description: "Not found - If id does not exist in database"
